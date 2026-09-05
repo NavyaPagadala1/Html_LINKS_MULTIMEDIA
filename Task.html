@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <fieldset style="width: 60%;">
+    <h2 style="background-color: rgb(26, 4, 46); color: aliceblue; text-align: center;">HTML TASK 
+        - STUDENT REGISTRATION & PROFILE PAGE</h2>
+    <p style="background-color: rgb(243, 224, 189); text-align: center; border: 1px solid; border-radius: 10px; 
+    border-color:rgb(253, 203, 111); padding:10px; width: 95%; margin:auto; "> <b> Create a single HTML page using</b> <b style="color: red;">Forms</b>,<b style="color: green;"> Tables</b>,
+   <b style =" color: rgb(27, 119, 217);"> Text Formatting Tags</b>,<b> and</b>  <b style="color: rgb(192, 4, 192);">Images</b></p>
+<h1 style="color: rgb(5, 5, 35); text-align: center;  "> Welcome to 10000 Coders</h1>
+<p style="font-size: 20px;  text-align: center;">1000 Coders is a leading training instute that provides industry-orient courses in <br>
+<u> web development</u>, programming, <strong>software testing </strong><i>data science</i> and more Our expert trainers<br> 
+<b>empower</b> students with <mark>practical knowledge </mark>and real-time projects to build successful careers.<br>We are committed to <u><i>quality education</i></u>, <u>students growth </u> and a <b style="color: red;">bright future</b> for everyone. <br>
+Join 10000 Coders today and stop dreaming <b style="color: green;">achieving your goals</b>!</p>
+<img style="text-align: center;" src="./Screenshot 2026-08-23 124035.png">
+<hr>
+<h3 style="color: rgb(129, 24, 227); text-align: center; margin: 0%;">STUDENT REGISTRATION FORM</h3>
+
+    <table border="2" rules="cols" width="100%">
+
+        <tr> 
+            <td> <label  for="name">Full Name : </label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br> <br> </td>
+       <td> <label for="Preferred batch">Preferred batch</label>
+        <select>
+            <option selected>---Preferred Batch---</option>
+            <option> Morning</option>
+            <option> Afternoon</option>
+            <option> Evening</option>
+        </select>
+      </td>
+
+        <tr> 
+            <td> <lable for="email" >email :</lable>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required><br> <br>
+        </td>
+        <td rowspan="3"> <label for="Address" > Address :</label>
+             <textarea  rows="6" cols="20"  name="Address" value="Address" ></textarea>
+        </td>
+        </tr>
+        
+        <tr>
+        <td>
+        <label  for="password" > Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter Your Password"><br> <br>
+       </td>
+       </tr>
+
+       <tr>
+        <td>
+       <label for="Phone Number"> Phone Number:</label>
+        <input type="tel" placeholder="Enter your mobile number"><br> <br>
+        </td>
+        </tr>
+
+        <tr>
+        <td>
+        <label for="Date of Birth">Date of Birth :</label>
+        <input type="date" readonly><br> <br>
+        </td>
+         <td> <label for="file">Upload Profile photo:  </label>
+        <input type="file" id="file" name="file">
+        </td>
+        </tr>
+       
+         <tr><td> 
+        <label for="Gender"> Gender : </label>
+         <input type="radio" name="gender" value="Male">
+         <label for="Male">Male</label>
+         <input type="radio" name="gender" value="Female">
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" value="others">
+         <label for="others">others</label>
+         </td>
+         <td rowspan="2"><des><b> Accept Terms and Conditions : </b> </des> <br> 
+             <dd><input type="checkbox" name="Terms and Conditions" value="I agree Terms and Conditions">
+              <label for="Terms and Conditions" >I agree all Terms and Conditions </label></dd> 
+        </td>
+         </tr>
+        
+         <tr> 
+            <td> <label for="Course">Course Selection:</label>
+        <select>
+            <option selected>---Select Course---</option>
+            <option>Python Full Stack</option>
+              <option>Java Full Stack</option>
+               <option>Data Science</option>
+               <option>Data Analytics</option>
+        </select>
+        </td>
+       </tr>
+       <tr> 
+        <td  colspan="2" style="text-align:center; ">
+            <button style="margin-right: 2%;">Submit</button>
+            <button style="margin-right:19% ;">Reset </button>  
+        </td>
+       </tr>
+   </table>
+   <fieldset style="border: 1px solid green; border-radius: 5px; margin-top: 2%;"> 
+   <table border="3"  width="100%"  rules="all">
+    <caption style="color: rgb(1, 75, 1);" ><b> REGISTERED STUDENTS </b></caption>
+    <tr style="background-color:rgb(217, 249, 220)"> <th> Student ID</th>
+    <th>Student Name </th>
+    <th> Course </th>
+    <th>Email </th>
+    <th> Mobile Number</th>
+    <th>Photo </th>
+    </tr>
+     <tr> 
+        <td>S101 </td>
+        <td>Gnani </td>
+        <td> HTML & CSS</td>
+        <td>gnani@gmail.com</td>
+        <td>98234567899 </td>
+        <td>
+            <img src="./Screenshot 2026-08-23 124035.png"  width="80px" height="20px"> </td>
+     </tr>
+      <tr>
+        <td> </td>
+        <td> </td>
+        <td>Java Programming </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+      </tr>
+       <tr> 
+        <td> </td>
+        <td> </td>
+        <td> Python Programming</td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+       </tr>
+        <tr> 
+            <td> </td>
+            <td> </td>
+            <td> SQL & Database</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+         <tr> 
+            <td> </td>
+            <td> </td>
+            <td> Web development</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+         </tr>
+         <tr> 
+            <td colspan="5"> Total Students</td>
+         </tr>  
+   </table>
+   </fieldset>
+    </fieldset>
+</body>
+</html>
